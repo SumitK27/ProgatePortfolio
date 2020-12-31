@@ -1,0 +1,162 @@
+header {
+    height: 65px;
+    width: 100%;
+    background-color:rgba(38,153,251,1);
+    color: aliceblue;
+    position :fixed;
+    top: 0;
+    left: -5px;
+    right: -5px;
+    z-index: 2;
+  }
+  
+  .logo {
+    width: 124px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  
+  .header-left {
+    float: left;
+    left: 20px;
+  }
+  
+  .header-right {
+    float: right;
+    right: 20px;
+    margin-right: 25px;
+    display: flex;
+  }
+
+.header-right div {
+    padding-top: 20px;
+}
+
+.nav-right{
+    color: aliceblue;
+    text-decoration: none;
+    margin-top: 20%;
+    margin-right: 20px;
+}
+
+.bg-image{
+    max-width: 100%;
+}
+
+.wel-content {
+    position: absolute;
+    top: 250px;
+    left: 300px;
+    float: left;
+}
+.wel-info {
+    color: rgba(89,89,89,1);
+    font-size: 30px;
+}
+
+.wel-img {
+    position: absolute;
+    top: 150px;
+    right: 150px;
+    float: right;
+}
+
+.project {
+    padding-bottom: 80px;
+    top: 120%;
+    width: 100%;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+
+.contact {
+    padding-bottom: 80px;
+    margin-top: -25px;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+
+.contact-info {
+    font-size: 30px;
+    padding-top: 50px;
+    padding-left: 25%;
+    padding-right: 25%;
+    text-align: center;
+}
+
+.title {
+    padding-top: 50px;
+    font-family: 'Times New Roman';
+}
+
+.contact img {
+    padding: 20px;
+}
+
+footer p {
+    color: #b3aeb5;
+    font-size: 20px;
+    text-align: center;
+    color: #f7f7f7;
+  }
+  
+  footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    width: 100%;
+    top: 240%;
+    z-index: 2;
+    background-color: rgba(38,153,251,1);
+    padding: 10px 2.5px;
+  }
+
+  .proj-container {
+      padding: 0 5%;
+      display: flex;
+      margin: 0 auto;
+  }
+
+  .con {
+    padding: 20px;
+    margin: 10px;
+    background-color: #e2e2e2;
+}
+
+.con a{
+    text-decoration: none;
+}
+
+.project-title {
+    color: black;
+}
+  
+.con h2 {
+    font-size: 18px;
+    color: rgba(89,89,89,1);
+}
+
+.con small {
+font-size: 14px;
+    color: red;
+}
+
+.about {
+    height: 500px;
+}
+
+.abt-img {
+    position: absolute;
+    float: left;
+    left: 10%;
+    padding-top: 20px;
+}
+
+.abt-content {
+    position: absolute;
+    float: right;
+    right: 20%;
+    padding-top: 150px;
+}
+.abt-content h2 {
+    color: rgba(89,89,89,1);
+}
